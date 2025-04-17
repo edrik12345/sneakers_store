@@ -12,8 +12,8 @@
     right:20px;
 }
 body{
-    background-color:rgb(17, 132, 105);
-    padding: 40px;
+    background: linear-gradient(to bottom,  #f08080 , #f4978e , #f8ad9d , #fbc4ab, #ffdab9);
+    padding: 200px;
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
@@ -22,6 +22,9 @@ table{
     margin: 0 auto;
     border-collapse: collapse;
     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    border-radius:12px;
+    overflow:hidden; 
+    
 }
 tr:hover {
     background-color: #f0f0f0;
@@ -42,6 +45,7 @@ h2{
     margin-bottom: 20px;
     color: white;
     text-shadow: 1px 1px 2px #000;
+    text-align:center;
 }
 @media (max-width: 768px) {
     table {
